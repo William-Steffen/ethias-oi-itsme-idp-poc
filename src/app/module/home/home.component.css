@@ -1,0 +1,26 @@
+.client-space {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+nb-card-header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.client-space button {
+  width: 40%;
+  margin-top: 1%;
+}
+
+hr {
+  /*display: block;*/
+  /*margin: 0.5em auto;*/
+  /*border-style: inset;*/
+  /*border-width: 1px;*/
+  /*color: black;*/
+}

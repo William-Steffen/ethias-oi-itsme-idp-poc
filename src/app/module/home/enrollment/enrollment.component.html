@@ -1,0 +1,46 @@
+<nb-layout>
+  <nb-layout-column>
+    <nb-card>
+
+      <nb-card-header>
+        <button nbButton [routerLink]="['/home']"> HOME</button>
+        <h1>Comment vous connecter la 1re fois ?</h1>
+
+      </nb-card-header>
+
+      <nb-card-body class="enrollment">
+
+        <nb-card>
+          <nb-card-header>
+            M'enrôler avec eid
+          </nb-card-header>
+          <nb-card-body>
+            <button nbButton outline status="success">Eid</button>
+          </nb-card-body>
+        </nb-card>
+
+        <nb-card>
+          <nb-card-header>
+            M'enrôler avec itsme
+          </nb-card-header>
+          <nb-card-body>
+            <button nbButton outline status="danger" (click)="enroll()">Itsme</button>
+          </nb-card-body>
+        </nb-card>
+
+        <nb-card>
+          <nb-card-header>
+            M'enrôler avec data
+          </nb-card-header>
+          <nb-card-body>
+            <button nbButton outline status="info">Data</button>
+          </nb-card-body>
+        </nb-card>
+
+      </nb-card-body>
+
+    </nb-card>
+  </nb-layout-column>
+
+
+</nb-layout>

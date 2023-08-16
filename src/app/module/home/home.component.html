@@ -1,0 +1,27 @@
+<nb-layout>
+  <nb-layout-column>
+    <nb-card>
+
+      <nb-card-header>
+
+        <h1>Connexion à mon Espace Client</h1>
+        <br>
+
+        <button nbButton outline status="info" [routerLink]="['/enrollment']">Me connecter pour la première fois</button>
+
+      </nb-card-header>
+
+      <nb-card-body class="client-space">
+
+        <button nbButton outline status="danger" (click)="login('itsme')">Me connecter avec Itsme</button>
+
+        <button nbButton status="info" (click)="login('okta')">Me connecter avec mot de passe</button>
+
+
+      </nb-card-body>
+
+    </nb-card>
+  </nb-layout-column>
+
+
+</nb-layout>

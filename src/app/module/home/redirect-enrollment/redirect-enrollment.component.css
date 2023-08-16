@@ -1,0 +1,18 @@
+.enrollment {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+nb-card-header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+nb-card-body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
